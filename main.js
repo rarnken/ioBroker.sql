@@ -360,6 +360,10 @@ function connect(callback) {
         if (adapter.config.dbtype === 'postgres') {
             params.database = 'postgres';
         }
+        
+        if (adapter.config.dbtype === 'mssql') {
+            params.database = adapter.config.dbname;
+        }
 
         if (adapter.config.dbtype === 'sqlite') {
             params = getSqlLiteDir(adapter.config.fileName);
