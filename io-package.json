@@ -27,7 +27,7 @@
         "version": "0.0.1",
         "news": {
             "0.0.1": {
-                "en": "Azure Sql Database support
+                "en": "Azure Sql Database support"
             }
         },
         "mode": "daemon",
