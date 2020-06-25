@@ -50,7 +50,7 @@
         "materialize": true,
         "compact": true,
         "authors": [
-            "foster",
+            "foster"
         ],
         "license": "MIT",
         "readme": "https://github.com/ioBroker/ioBroker.sql/blob/master/README.md",
